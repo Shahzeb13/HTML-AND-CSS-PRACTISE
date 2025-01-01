@@ -1,0 +1,76 @@
+<a href="https://google.com" target="_blank">Go to Google</a>
+
+<h1 > Nike Black Running Shoes</h1>
+
+<h3 style="color: green;">$39 -in stock</h3>
+
+<p>Free delivery tommorow</p>
+
+<button class= "addTo-Cart">Add to Cart</button>
+<button class= "Buy-btn">Buy now</button>
+
+<style>
+
+    a{
+        color:rgb(68, 170, 170);
+        transition: color 0.15s ,  box-shadow 0.15s ;
+    }
+    a:hover{
+        color:gold;
+        box-shadow: 5px 5px 10px rgba( 0 ,0 ,0 ,0.15s)
+    }
+    a:active{
+        opacity:0.6
+    }
+.addTo-Cart{
+    background-color: rgb(255, 251, 20);
+    color: black;
+    border:none;
+    height:30px;
+    width:150px;
+    border-radius:15px;
+    padding-top: 4px; 
+    padding-bottom:4px;
+    cursor:pointer;
+    transition: opacity 0.15s , box-shadow 0.15s , background-color 0.15s;
+     
+}
+
+
+.addTo-Cart:hover{
+    background-color:rgb(240, 240, 12) ;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.addTo-Cart:active{
+    opacity:0.2;
+}
+
+/* .addTo-Cart:active{
+    opacity:0.6;
+} */
+
+.Buy-btn{
+    background-color: rgb(238, 206, 49);
+    color: black;
+    border:none;
+    height:30px;
+    width:150px;
+    border-radius:15px;
+    padding-top: 4px; 
+    padding-bottom:4px;
+    cursor:pointer;
+    transition: opacity 0.15s , background-color 0.15s , box-shadow 0.15s;
+}
+
+
+.Buy-btn:hover{
+    background-color: goldenrod;
+    box-shadow: 5px 5px 10px rgba( 0, 0, 0, 0.15);
+    
+}
+
+.Buy-btn:active{
+    opacity:0.4
+}
+
+</style>
