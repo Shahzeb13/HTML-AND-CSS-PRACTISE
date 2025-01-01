@@ -1,0 +1,109 @@
+<button class = 'Hello-btn'>Hello</button>
+<button class="Req-btn">Request Now</button>
+<button class= "addTo-Cart">Add to Cart</button>
+<button class="sign-up">Sign up</button>
+<button class = 'save-btn'>Save</button>
+
+<button ></button>
+
+<style>
+.Hello-btn{
+    background-color: rgb(208, 255, 0);
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width:100px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: transform 0.15s ,background-color 0.15s ease;
+    margin-right: 5px;
+
+}
+
+.Hello-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0 , 0,0,0.15);
+}
+
+.Req-btn{
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    height: 40px;
+    width:120px;
+    cursor: pointer;
+    border:none;
+    padding:5px;
+    font-weight: bolder;
+    margin-right:5px;
+    transition: background-color 0.3s ease;
+}
+
+.Req-btn:hover{
+background-color: whitesmoke;
+color: black;
+box-shadow: 5px 5px 10px rgba(0 , 0,0,0.15)
+}
+
+
+.addTo-Cart{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border:none;
+    height:30px;
+    width:200px;
+    border-radius:15px;
+    padding-top: 4px; 
+    padding-bottom:4px;
+    cursor:pointer;
+    margin-right:5px;
+    transition: opacity 0.15s ease;
+}
+
+.addTo-Cart:hover{
+    opacity:0.6;
+    box-shadow:5px 5px 10px rgba(0 , 0 , 0 , 0.15)
+}
+
+.addTo-Cart:active{
+    opacity:0.2;
+}
+
+
+.sign-up{
+    background-color: rgb(46, 164, 79);
+    color:white;
+    height:48px;
+    width:115px;
+    border: none;
+    border-radius:5px;
+    font-weight: bold;
+    padding:1px 3px;
+    font-size:15px;
+    cursor:pointer;
+    margin-right:5px;
+}
+
+.save-btn{
+    background-color: aliceblue;
+    color:rgb(47, 126, 216);
+    border-color:rgb(47, 126, 216);
+    height:40px;
+    width:70px;
+    border-radius:25px;
+    cursor:pointer;
+    font-weight :800;
+    padding-bottom:4px;
+    margin-right:5px;
+}
+
+
+
+
+
+
+
+
+</style>
