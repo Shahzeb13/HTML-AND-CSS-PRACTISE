@@ -1,0 +1,95 @@
+
+
+  <button class="Stretch-btn">Stretch</button>  
+
+
+
+
+   <button class="enlarge-btn">Enlarge</button> 
+
+
+
+
+    <button class="threed-btn" >3d</button>
+
+
+
+
+<style>
+
+
+        button{
+    margin-right: 10px;
+}
+    .Stretch-btn{
+        background-color: greenyellow;
+        color:white;
+        padding:8px 16px;
+        border:greenyellow;
+        transition: padding 0.5s;
+        cursor: pointer;
+       
+        transition: padding 0.15s, opacity 0.15s , box-shadow 0.15s;
+
+    }
+
+    .Stretch-btn:hover{
+        padding:15px 30px;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+
+    .Stretch-btn:active{
+        opacity:0.6;
+    }
+    .enlarge-btn{
+        padding: 10px 10px;
+        background-color: greenyellow;
+        border:none;
+        color:white;
+        transition:transform 0.15s ,box-shadow 0.15s , opacity 0.15s;
+        cursor:pointer;
+        display:inline-block;
+       
+
+        
+    }
+
+   
+
+    .enlarge-btn:hover{
+        
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+        transform: scaleX(1.2);
+    
+    }
+
+    .enlarge-btn:active{
+        opacity:0.6;
+    }
+
+
+    .threed-btn{
+        padding: 10px 10px;
+        background-color: greenyellow;
+        border:none;
+        color:white;
+        transition:  box-shadow 0.15s , translate 0.15s;
+        cursor:pointer;
+        
+        
+    }
+    .threed-btn:hover{
+        
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+    }
+
+    .threed-btn:active{
+        transform: translate(5px ,5px)
+    }
+    
+
+
+
+
+
+</style>
