@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <style>
+      body {
+        background-color: #f4f4f9; /* Soft off-white background */
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .Upper {
+        text-align: center;
+        color: #333;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+        padding-top: 30px;
+      }
+
+      .title {
+        font-size: 2.5rem;
+        color: #2c3e50;
+        margin-bottom: 20px;
+      }
+
+      .description {
+        width: 80%;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.6;
+        color: #555;
+        font-size: 1.1rem;
+        margin-bottom: 60px;
+        font-weight: 300;
+      }
+
+      .Stretch-btn, .insta-btn {
+        background-color: #333;
+        color: white;
+        padding: 16px 32px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        margin: 10px;
+      }
+
+      .Stretch-btn:hover, .insta-btn:hover {
+        background-color: #444;
+        padding: 18px 36px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        transform: scale(1.05);
+      }
+
+      .Stretch-btn:active, .insta-btn:active {
+        opacity: 0.7;
+      }
+
+      .insta-btn {
+        margin-left: 20px;
+      }
+
+      /* Mobile Responsiveness */
+      @media screen and (max-width: 768px) {
+        .Upper {
+          padding: 20px;
+        }
+        .title {
+          font-size: 2rem;
+        }
+        .description {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Upper">
+      <h1 class="title">Welcome to My Portfolio</h1>
+      <p class="description">
+        Welcome to my very first portfolio website, built with HTML and CSS. 🌱
+        This site reflects my web development journey, where each project is like a flower I’ve carefully cultivated with love and
+        dedication. 💐 From the seeds of basic HTML to the flourishing blooms of advanced CSS, I’ve worked hard to design clean, responsive layouts that
+        showcase both my progress and passion for creating beautiful websites. 🌷✨
+        As I continue to grow, I’m digging deeper into JavaScript and React, ready to cultivate even more interactive and dynamic web experiences. 🌿🌍
+      </p>
+
+      <!-- GitHub Link -->
+      <a href="https://github.com/Shahzeb13/HTML-AND-CSS-PRACTISE" target="_blank">
+        <button class="Stretch-btn">Github</button>
+      </a>
+
+      <!-- Instagram Link -->
+      <a href="https://www.instagram.com/" target="_blank">
+        <button class="insta-btn">Instagram</button>
+      </a>  
+    </div>
+  </body>
+</html>
