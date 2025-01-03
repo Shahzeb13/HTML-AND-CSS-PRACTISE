@@ -1,0 +1,65 @@
+<h3 class="red-text">New</h3>
+<h2 >MacBook Pro</h2>
+<h1>Supercharged For Pros.</h1>
+<h3>From &#36;1999</h3>
+<button class="buy-btn">Buy</button>
+<hr>
+<h1 class="lively-text">Magic.</h1>
+
+<hr>
+<style>
+    body{
+        font-family:Arial;
+        text-align: center;
+        text-shadow:5px 5px 10px rgba(0,0,0,0.15);
+        
+    }
+
+    h1, h2, h3, .buy-btn {
+    margin-top: 1px;
+    margin-bottom: 6px;
+}
+
+.red-text{
+    color:red;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+
+}
+
+
+.buy-btn{
+    padding: 5px 8px;
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 15px;
+    transition: box-shadow 0.15s , opacity 0.15s;
+}
+
+.buy-btn:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.buy-btn:active{
+    opacity: 0.5;
+}
+
+.lively-text {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #333;
+        animation: bounce 2s infinite;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+
+</style>
