@@ -1,0 +1,13 @@
+body{
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+.inner-text{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 3rem;
+}
