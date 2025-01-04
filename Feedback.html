@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Montserrat;
+        }
+        p{
+            display:inline-block;
+            width:300px;
+            vertical-align: middle;
+        }
+
+
+        .yes-btn{
+            padding:6px;
+            background-color: greenyellow;
+            border:none;
+            border-radius:5px;
+            transition: box-shadow 0.15s , opacity 0.15s ;
+            margin-left: 3px;
+
+        }
+
+        .yes-btn:hover{
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .yes-btn:active{
+            opacity: 0.6;
+        }
+
+        .no-btn{
+            padding:6px;
+            background-color: red;
+            border:none;
+            border-radius:5px;
+            transition: box-shadow 0.15s , opacity 0.15s ;
+
+        }
+
+        .no-btn:hover{
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .no-btn:active{
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <p>Thanks for chatting with our customer support. Would You like to take our quicky survey!</p>
+    <button class="yes-btn">Yes</button>
+    <button class="no-btn">No</button>
+</body>
+</html>
