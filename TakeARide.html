@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a Ride!!</title>
+
+
+    <style>
+
+
+        body{
+            
+            font-family: Roboto;
+            
+}
+
+
+h2{
+     text-align: center;
+}
+
+
+
+
+
+        .input , .input2{
+            padding:10px;
+            background-color: whitesmoke;
+            border:none;
+            width:320px;
+            display: block; /* Ensure they are block elements */
+             /* Make inputs and buttons take the full width */
+            margin-bottom: 10px
+            
+        }
+
+        .input:focus{
+            outline:none;
+        }
+
+        .input2:focus{
+            outline:none;
+        }
+
+
+        .reqNow-btn{
+            padding:8px;
+            background-color: black;
+            color:white;
+            border:none;
+            transition: box-shadow 0.15s  , opacity 0.15s;
+            display:inline-block;
+            margin-right:111px;
+        }
+
+        .reqNow-btn:hover{
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.15)
+        }
+
+        .reqNow-btn:active{
+            opacity: 0.6;
+        }
+
+        .schLater-btn{
+            padding:8px;
+            background-color: whitesmoke;
+            color: black;
+            border:none;
+            transition: box-shadow 0.15s  , opacity 0.15s;
+        }
+
+        .schLater-btn:hover{
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.15)
+        }
+
+        .schLater:active{
+            opacity: 0.6;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class=" container"> 
+<h1>Take A Ride Now!</h1>
+<input class="input" type="text" placeholder="Enter pickup Location">
+<input class= "input2" type="text" placeholder="Enter Destination">
+<button class="reqNow-btn">Request Now</button>
+<button class="schLater-btn">Schedule For Later</button>
+
+    </div>
+
+
+
+</body>
+</html>
