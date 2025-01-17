@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+       text-align: center; /*Center align content */
+      margin: 0;
+      padding: 0;
+    }
+
+    .search-container {
+      margin-top: 50px; 
+    }
+
+    .google-logo {
+      width: 150px; /* Adjust the size of the image */
+      margin-bottom: 20px;
+      display:block;
+      margin: auto;
+      margin-bottom:15px; /* Add space between the logo and input field */
+    }
+
+    .search-input {
+        display: block;
+        margin:auto;
+      width: 400px; /* Set the width of the input field */
+      padding: 10px 15px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 24px; /* Rounded corners */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    }
+
+    .search-input:focus{
+        outline: none;
+    }
+
+
+    button{
+        margin-top:30px;
+            margin-right:4px;
+            padding:8px;
+            background-color: whitesmoke;
+            color: black;
+            border:none;
+            transition: box-shadow 0.15s  , opacity 0.15s;
+        }
+
+        .schLater-btn:hover{
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.15)
+        }
+
+        .schLater:active{
+            opacity: 0.6;
+        }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <!-- Google logo -->
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" 
+         alt="Google Logo" 
+         class="google-logo">
+    
+    <!-- Input field -->
+    <input type="text" class="search-input" placeholder="Search Google or type a URL">
+
+    <button>Google Search</button>
+    <button>I am Feeling Lucky</button>
+  </div>
+</body>
+</html>v
