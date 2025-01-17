@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profiles</title>
+    <style>
+        .container{
+            font-family: Roboto;
+            width:150px;
+            margin-left:10px;
+            
+            display:inline-block;
+            border:1px solid rgba(0,0,0,0.15);
+            box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+        }
+        .container img{
+            width:150px;
+            height: 150px;
+            object-fit: cover;
+            
+        }
+        
+        .container h3 {
+            font-size: medium;
+            margin-left:5px;
+            margin-top:0;
+            margin-bottom:0;
+        }
+
+
+        .container p{
+            font-size: small;
+            margin-top:0;
+            margin-left:5px;
+            color:grey
+        }
+
+
+        .container button{
+        margin-left:5px;
+        margin-bottom:5px;
+        }
+
+
+        .container button {
+        background-color: rgb(49, 178, 238);
+        color: white;
+        border: none;
+        padding: 7px 15px;
+        border-radius: 5px;
+
+        cursor: pointer;
+        transition: opacity 0.15s, background-color 0.15s, box-shadow 0.15s;
+      }
+
+      button:hover {
+        background-color: rgb(49, 178, 238);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      button:active {
+        opacity: 0.4;
+      }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/images.jpeg" alt="Profile">
+        <h3>Oliver</h3>
+        <p>2 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+    
+    <div class="container">
+        <img src="images/mimi.jpeg" alt="Profile">
+        <h3>Mimi</h3>
+        <p>8 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+
+    <div class="container">
+        <img src="images/scoobs.webp" alt="Profile">
+        <h3>Scoobs</h3>
+        <p>4 mutual friends</p>
+        <button>Add Friend</button>
+    </div>
+</body>
+</html>
