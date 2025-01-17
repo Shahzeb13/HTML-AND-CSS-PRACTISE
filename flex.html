@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 20px;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid whitesmoke;
+        width: 400px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+      }
+      .container img {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+      }
+      .container input {
+        width: 280px; /* Define a width for the input */
+        padding: 5px;
+        border: none;
+      }
+      .container input:focus {
+        outline: none;
+      }
+
+      .Buy-btn {
+        background-color: rgb(49, 178, 238);
+        color: black;
+        border: none;
+        padding: 7px 15px;
+        border-radius: 15px;
+
+        cursor: pointer;
+        transition: opacity 0.15s, background-color 0.15s, box-shadow 0.15s;
+      }
+
+      .Buy-btn:hover {
+        background-color: rgb(49, 178, 238);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .Buy-btn:active {
+        opacity: 0.4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="images/images.jpeg" alt="Oliver" />
+      <input type="search" placeholder="What's happening?" />
+      <button class="Buy-btn">Tweet</button>
+    </div>
+  </body>
+</html>
