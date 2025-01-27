@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+
+        body{
+            font-family: Roboto;
+            background: #b3bbba;
+            margin: 40px auto;
+            max-width: 1000px;
+            padding:20px;
+            
+        }
+
+        header{
+            border-bottom:2px solid #bbc7c7;
+            margin-bottom:40px;
+        }
+
+        h1, h2{
+            color:#626968;
+        }
+
+        h2{
+            margin:30px 10px;
+            font-size:medium;
+        }
+
+        p{
+            color:darkolivegreen;
+            margin:30px 10px;
+            font-size:small;
+
+
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-columns: repeat(3 , 1fr);
+            gap:50px;
+
+        }
+
+        article img{
+            border:4px solid whitesmoke;
+            width:100%;
+            border-radius:8px;
+            box-shadow: 1px 1px 4px rgba(0,0,0,0.15)
+        }
+
+
+        article.featured-article{
+            
+            grid-column: span 3;
+            display:grid;
+            grid-template-columns: repeat(2 , 1fr);
+            gap:40px;
+            align-items: center;
+            border-bottom:2px solid #bbc7c7;
+            margin-bottom:40px;
+            padding-bottom: 50px;
+
+
+        }
+
+
+        @media screen and (max-width:412px){
+         
+            body{
+                max-width: 400px;
+                padding:30px 20px;
+            }
+            h1{
+                font-size: medium;
+                
+                text-align: center;
+            }
+
+            article.featured-article{
+                grid-template-columns: 1fr;
+               
+            }
+            article img{
+                max-width: 100%;
+            
+            }
+
+            article{
+                
+                grid-column: span 3;
+                
+            }
+
+            h2 , p{
+            text-align: center;
+            }
+        }
+
+
+        @media screen and (max-width:980px){
+
+            header{
+                text-align: center;
+            }
+           
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Glass Blossom</h1>
+    </header>
+
+    <main class="grid-container">
+        <article class="featured-article">
+            <img src="Images/globe.jpg" alt="Globe">
+            <div>
+                <h2>Heaven Peice</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates libero earum repellendus ut. Numquam quis quos odio repudiandae! Dolores unde nihil minima accusantium inventore vero nobis voluptates illo rerum enim!</p>
+            </div>
+        </article>
+        
+
+
+        <article>
+            <img src="Images/Jungle.jpg" alt="Jungle Safari">
+            <div>
+                <h2>Jungle Safari</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis possimus aut reprehenderit. Saepe totam hic, vero quia atque cupiditate. Unde nostrum at exercitationem deserunt aliquam qui dolores delectus pariatur.</p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Images/greece.jpg" alt="Greece The land of colors">
+            <div>
+                <h2>City of Colors</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sunt molestias nemo iure et rem eaque libero at doloribus atque.</p>
+            </div>
+        </article>
+
+        <article>
+            <img src="Images/snow.jpg" alt="Snow World">
+            <div>
+                <h2>Alaska</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni aut quis dolorum! Ea, culpa voluptatum. Fuga sint ut facilis!</p>
+            </div>
+        </article>
+
+
+
+
+    </main>
+</body>
+</html>
