@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+
+    <style>
+        body{
+            font-family: Roboto;
+            max-width:1000px;
+            background: #d1dedd;
+            margin: 20px auto;
+        }
+
+        header{
+            border-bottom: 1px solid #bbc7c7;
+            margin-bottom:50px;
+        }
+
+        h1,h2,h3{
+            color:#767f7e;
+        }
+
+        p{
+            color: #828282;
+        }
+
+    article.featured-article{
+        display:grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap:50px;
+        align-items: center;
+        }
+
+        .grid-container{
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            font-size: small;
+        }
+
+
+        .grid-container > article:nth-child(1){
+            grid-column: span 3;
+            border-bottom: 1px solid #bbc7c7;
+            margin-bottom:30px;
+            padding-bottom:50px;
+        }
+
+        article img{
+            width:100%;
+            border: 4px solid #eee;
+            border-radius:8px;
+        }
+
+        article p article h2{
+            margin:40px 20px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Glass Blossom</h1>
+    </header>
+
+    <main  class="grid-container">
+        <article  class="featured-article">
+            <img src="Images/globe.jpg" alt="Image">
+
+            <div>
+            <h2>Visit The Globe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consectetur. Possimus praesentium vel itaque nam ut deserunt enim consectetur. Atque.</p>
+            </div>
+        </article>
+
+        <article >
+            <img src="Images/Jungle.jpg" atl="Image">
+            
+            <div>
+               <h2>Safari adventure</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consectetur. Possimus praesentium vel itaque nam ut deserunt enim consectetur. Atque.</p> 
+            </div>
+            
+        
+        </article>
+
+        <article >
+            <img src="Images/greece.jpg" atl="Image">
+            
+            <div>
+            <h2>Rainbow</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consectetur. Possimus praesentium vel itaque nam ut deserunt enim consectetur. Atque.</p>
+            </div>
+        </article>
+
+        <article >
+            <img src="Images/snow.jpg" atl="Image">
+            
+            <div>
+            <h2>Snowy Mountains</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, consectetur. Possimus praesentium vel itaque nam ut deserunt enim consectetur. Atque.</p>
+            </div>
+        </article>
+
+
+
+
+
+    </main>
+</body>
+</html>
